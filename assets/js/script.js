@@ -55,7 +55,7 @@ function mostrarPersonajes(lista) {
   });
 }
 
-// Llenar las opciones del filtro de especie
+// Llenar las opciones del filtro 
 function llenarFiltroEspecie() {
   const especiesUnicas = [...new Set(personajes.map(p => p.species))];
   especiesUnicas.sort();
@@ -68,7 +68,7 @@ function llenarFiltroEspecie() {
   });
 }
 
-// Aplicar filtros de búsqueda, estado y especie
+// Aplicar filtros de búsqueda
 function aplicarFiltros() {
   const texto = buscador.value.toLowerCase();
   const estado = filtroEstado.value;
