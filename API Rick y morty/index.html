@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rick and Morty Buscador</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Navegación y filtros -->
+  <nav>
+    <h1>Rick and Morty Buscador</h1>
+    <div class="filtros">
+      <input type="text" id="buscador" placeholder="Buscar personaje..." />
+      
+      <select id="filtro-estado">
+        <option value="all">Todos</option>
+        <option value="alive">Vivos</option>
+        <option value="dead">Muertos</option>
+        <option value="unknown">Desconocido</option>
+      </select>
+
+      <select id="filtro-especie">
+        <option value="all">Todas las especies</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main>
+    <section id="personajes-section">
+      <!-- Los personajes se cargarán aquí -->
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 - Proyecto hecho por Cezar con la API de Rick and Morty</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
